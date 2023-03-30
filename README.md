@@ -16,12 +16,11 @@ Go to https://console.developers.google.com and create a Google App Engine proje
 
 OPTIONAL:
 
-3. Update the rest of keys.ini with keys for each command you want to use.
-4. Copy pre-push to the .git\hooks folder.
-5. In .git\hooks\pre-push change were it says [[PythonInstallation]] to your Python install location in bash notation (e.g. /C/Python27) and your 
-6. In .git\hooks\pre-push change were it says [[GoogleCloudSDKInstallation]] to your Google Cloud SDK install location in bash notation (e.g. /C/Program Files (x86))
-7. In .git\hooks\pre-push change were it says [[GoogleAppEngineProjectName]] to your Google App Engine Project ID in bash notation (e.g. /C/Program Files (x86))
-8. Now when you push it will automagicly build and deploy ChatBoet to the cloud! To the hindenpeter!
+3. Copy pre-push to the .git\hooks folder.
+4. In .git\hooks\pre-push change were it says [[PythonInstallation]] to your Python install location in bash notation (e.g. /C/Python27) and your 
+5. In .git\hooks\pre-push change were it says [[GoogleCloudSDKInstallation]] to your Google Cloud SDK install location in bash notation (e.g. /C/Program Files (x86))
+6. In .git\hooks\pre-push change were it says [[GoogleAppEngineProjectName]] to your Google App Engine Project ID in bash notation (e.g. /C/Program Files (x86))
+7. Now when you push it will automagicly build and deploy ChatBoet to the cloud! To the hindenpeter!
 
 ```bash
 git clone (url for your ChatBoet fork) ~/bot
