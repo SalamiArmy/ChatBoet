@@ -15,6 +15,7 @@ Go to https://console.developers.google.com and create a Google App Engine proje
 2. Update {Your Telegram Bot ID here} in keys.ini
 
 OPTIONAL:
+
 3. Update the rest of keys.ini with keys for each command you want to use.
 4. Copy pre-push to the .git\hooks folder.
 5. In .git\hooks\pre-push change were it says [[PythonInstallation]] to your Python install location in bash notation (e.g. /C/Python27) and your 
